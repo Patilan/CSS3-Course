@@ -1,0 +1,40 @@
+table {
+	background-color: #3d3d3d;
+}
+thead th {
+	font-style: normal;
+	font-size: 22px;
+	font-family: arial;
+	font-weight: normal;
+	color: #868585;
+}
+
+td {
+	width: 250px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 14px;
+	color: #868585;
+}
+th {
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+	font-family: arial;
+	color: #A6A2A2;
+}
+td span {
+	color: #B40909;
+	font-weight: bold;
+}
+
+.yellow {
+	color: #A09E69;
+}
+.orange {
+	color: #DC6224;
+}
+
+.position {
+	padding-top: 0;
+}

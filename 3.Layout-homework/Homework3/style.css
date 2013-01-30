@@ -1,0 +1,71 @@
+﻿body {
+    font-family: 'Courier New';
+}
+
+p {
+    margin-top: 0px;
+    color: #d1d1d1;
+    font-size: 14px;
+}
+
+    p span {
+        color: #fff5bc;
+    }
+h1 {
+    color: #FCD814;
+    font-weight: normal;
+    font-size: 28px;
+    margin: 10px 0px 10px 0;
+}
+#main {
+    width: 660px;
+    margin: 0px;
+    border-radius: 11px;
+    border: 2px solid #806850;
+    float: left;
+}
+
+#first {
+    padding: 10px 5px 5px 10px;
+    margin-bottom: 0px;
+    background-color: #3B3B3B;
+    border-radius: 10px 10px 0 0;
+    -webkit-inset: 0 -4px 45px -20px black inset;
+    -moz-box-shadow: 0 -4px 45px -20px black inset;
+    box-shadow: 0 -4px 45px -20px black inset;
+}
+
+    #first button {
+        background-image: url(images/go-button.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        width: 51px;
+        height: 24px;
+        border: none;
+        padding-top: 5px;  
+    }
+
+input {
+    width: 150px;
+}
+
+    #first input {
+        padding-left: 5px;
+    }
+    #first p {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        padding-top: 10px;
+    }
+    #first img {
+        padding-left: 10px;
+        padding-right: 20px;
+        float: left;
+    }
+#second {
+    padding: 5px 20px 5px 10px;
+    text-align: left;
+    background-color: #3B3B3B;
+    border-radius: 0 0 10px 10px;
+}

@@ -1,0 +1,78 @@
+﻿body {
+   
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial;
+}
+
+.main {
+    border-radius: 10px;
+    background-color: #dedede;
+    width: 404px;
+    padding-bottom: 10px;
+    border: 1px solid #CBC9C9;
+}
+
+.textbox {
+    background-color: white;
+    width: 380px;
+    border: 2px solid #CBC9C9;
+    font-size: 14px;
+    padding-bottom: 25px;
+    margin: 25px 10px 15px 10px; 
+    
+}
+
+    .textbox p {
+        padding-right: 15px;
+    }
+img.post {
+    margin: 15px 15px 0 15px;
+    vertical-align: middle;
+    float: left;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+img.button {
+    margin-left: 10px; 
+    border: 1px solid black;
+    -moz-box-shadow: 3px 3px 3px #000;
+    -webkit-box-shadow: 3px 3px 3px #000;
+    box-shadow: 3px 3px 3px #000;
+    position: relative;
+    float:right;
+}
+
+.buttons-content {
+    margin-right: 15px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.text1, .text2
+{
+    font-family: Arial;
+    width: 45px;
+    color: white;
+    font-size: 12px;
+}
+    
+
+.text1 {
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+.text2 {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}

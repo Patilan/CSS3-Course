@@ -1,0 +1,38 @@
+body {
+	font-family: arial;
+	text-align: left;
+	
+}
+
+table, th, td {
+	border-style:solid;
+	border-width:1px; 
+	border-color:#B9B7B7;
+	
+}
+
+
+th {
+	background-color: #1AD41A;
+	font-weight: normal;
+	color: #f1f1f1;
+	width: 150px;
+
+	
+	
+}
+tbody tr:nth-of-type(2n) {
+	background-color: #f1f1f1;
+}
+
+.check {
+	width: 100px;
+}
+
+.city {
+	width: 130px;
+}
+
+.flag {
+	vertical-align: middle;
+}
