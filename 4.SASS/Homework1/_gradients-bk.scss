@@ -1,0 +1,14 @@
+@mixin linear-gradient ( $start, $finish ) {
+
+background: $start; /* Old browsers */
+background: -moz-linear-gradient(top,  $start 0%, $finish 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(top,  $start 0%,$finish 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  $start 0%,$finish 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  $start 0%,$finish 100%); /* IE10+ */
+background: linear-gradient(to bottom,  $start 0%,$finish 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start', endColorstr='$finish',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+	
